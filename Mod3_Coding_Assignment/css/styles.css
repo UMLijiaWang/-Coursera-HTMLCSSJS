@@ -1,0 +1,153 @@
+/* General setting */
+body {
+	font-size: 16px;
+  color: #ffffff; /* White */
+  background-color: #4a86e8; /* Light blue */
+  font-family: 'Lora', serif;
+	font-family: 'Montserrat', sans-serif;
+	/*padding-top: 85px; */
+	/*margin: auto;*/
+}
+
+/** HEADER **/
+.navbar-header {
+  background-color: #ff6d01; /* Orange */
+  height:80px;
+  /*border-radius: 10px;*/
+  /*width: 100%;*/
+  /*border: 10px #ff0000;*/
+}
+
+/*Overwrite the setting in the bootstrap.min.css*/
+.container-fluid {
+  padding: 0px;
+}
+
+/*Overwrite the setting in the bootstrap.min.css*/
+.container-fluid > .navbar-header {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Food LCC */
+  color: #ffffff;
+  font-size: 200%;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin: auto;
+  line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.narbar-toggle {
+	position: relative;
+	float: right;
+	background-color: transparent;
+	background-image: none;
+	border: 2px solid black;
+	border-radius: 0px;
+}
+
+.narbar-toggle:focus {
+	outline: 0;
+}
+
+.narbar-toggle .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border-radius: 1px;
+}
+
+.narbar-toggle .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  border: 2px solid White;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list hr {
+  margin: 0px;
+  border-top: 2px solid #ffffff;
+}
+#nav-list a:hover {
+  background: #000000;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+
+/*The click-able button should be on the right of the header with certain top margin*/
+.navbar-header button.navbar-toggle {
+  margin-top: 20px;
+}
+
+/* -- END HEADER -- */
+
+/* main page */
+#main-content {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/*The title of the main page shown*/
+#main-header {
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 300%;
+	font-weight: 500;
+	color: #4a86e8; /* Light blue */
+	border: 0px solid #000000;
+	border-radius: 10px;
+	background-color: #ffffff;
+	text-shadow: 2px 2px 2px #222;
+	text-align: center;
+}
+
+/*The items of the menu*/
+#menu-item-1, #menu-item-2, #menu-item-3 {
+  color: #ffffff;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 0.75;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: justify;
+  /*overflow: auto;*/
+  /*height: 800px;*/
+}
+
+/*The items of the menu*/
+.menu-item {
+	margin: 10px 0px 15px 0px;
+}
+
+/*The title of the items in main page*/
+.menu-item h1 {
+	text-align: center;
+	font-weight: bold;
+}
+
+/*"Back to Top" Link of each items on the main page*/
+#menu-item-1 p a, #menu-item-2 p a, #menu-item-3 p a {
+	/*text-align: right;*/
+	font-weight: bold;
+	text-decoration: underline;
+}
